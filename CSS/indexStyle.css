@@ -1,0 +1,162 @@
+.mainFirstPart img,
+.mainFifthPart img {
+  width: 38%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.mainFirstPart,
+.mainFifthPart {
+  display: flex;
+  gap: 2%;
+  margin: 0 8%;
+}
+.mainFirstPart {
+  margin-top: 14%;
+}
+.mainFirstPart div,
+.mainFifthPart div {
+  width: 58%;
+}
+.imageHidden {
+  display: none;
+}
+/* *************************** */
+.mainSecPart {
+  display: flex;
+  gap: 2%;
+  background-color: #ca0708;
+  color: white;
+  margin-top: 5%;
+  /* font-family: b homa; */
+  margin-bottom: 5%;
+}
+
+.mainSecPart div:first-child {
+  width: 30%;
+  margin: 2%;
+}
+.mainSecPart div img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+}
+.mainSecPart div:last-child {
+  width: 67%;
+  margin: 0 2%;
+}
+.mainSecPart h2 {
+  text-align: center;
+}
+
+/* ****************************** */
+
+.mainThirdPart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
+.mainThirdPart img {
+  width: 60px;
+}
+.boxes {
+  width: 35%;
+  box-shadow: 0 0 5px hsl(240, 100%, 56%);
+  margin-bottom: 2%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  gap: 7%;
+  background-color: white;
+  color: black;
+}
+/* ****************************** */
+
+.mainfourthPart {
+  margin-top: 6%;
+}
+.mojavezha {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+
+.mojavezha div {
+  width: 13%;
+}
+.mojavezha img {
+  width: 80%;
+  box-shadow: 0 0 5px blue;
+  padding: 5px;
+}
+.mainfourthPart h3 {
+  text-align: center;
+}
+/* ****************************** */
+.mainFifthPart {
+  margin-top: 8%;
+}
+div + h3,
+.mainfourthPart h3 {
+  font-size: 40px;
+}
+
+/* *********RESPONSIVE********* */
+
+@media only screen and (max-width: 375px) {
+  .mojavezha {
+    flex-wrap: wrap;
+  }
+  .mojavezha div {
+    width: 45%;
+  }
+  .mainThirdPart {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .boxes {
+    width: 90%;
+  }
+  .mainSecPart {
+    flex-direction: column;
+    font-size: 15px !important;
+  }
+  .mainSecPart div:first-of-type {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .mainSecPart div:last-of-type {
+    width: 90%;
+    text-align: center;
+  }
+  .mainSecPart div:last-of-type p {
+    text-align: justify;
+    padding-right: 10px;
+  }
+  .mainFirstPart {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 0;
+    margin: 5%;
+    margin-top: 0;
+  }
+
+  .mainFirstPart div:first-of-type img {
+    width: 100%;
+  }
+  .imageHidden {
+    display: block;
+    margin-top: 50px;
+    width: 95% !important;
+  }
+  .image2 {
+    display: none;
+  }
+  .mainFirstPart div:last-of-type {
+    width: 90%;
+    text-align: center;
+    font-size: 15px !important;
+  }
+}

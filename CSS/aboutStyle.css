@@ -1,0 +1,90 @@
+main {
+  margin-top: 20%;
+}
+main .us {
+  display: flex;
+  padding-right: 20px;
+}
+main .us div:first-of-type {
+  width: 68%;
+}
+main .us div:first-of-type p {
+  margin-bottom: 6%;
+}
+main .us div:first-of-type a {
+  width: 10%;
+  color: white;
+  background-color: #ca0708;
+  padding: 2%;
+  border-radius: 20px;
+  text-decoration: unset;
+}
+main .us div:first-of-type a:hover {
+  transform: translate(-5px, -5px);
+}
+main .us div:last-of-type {
+  width: 30%;
+}
+main .us div:last-of-type img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.boss {
+  border-radius: 10px;
+  background-color: #ca0708;
+  color: white;
+  display: flex;
+}
+.boss div:first-of-type {
+  width: 30%;
+  padding: 2%;
+}
+.boss div:first-of-type img {
+  width: 100%;
+  border-radius: 10px;
+}
+.boss div:last-of-type {
+  width: 68%;
+  padding: 2%;
+}
+.boss div:last-of-type p:last-of-type {
+  text-align: left;
+}
+
+/* *********RESPONSIVE********* */
+@media only screen and (max-width: 375px) {
+  .us {
+    padding-right: 0 !important;
+  }
+  .us div:first-of-type {
+    width: 90% !important;
+    margin: auto;
+    text-align: center;
+  }
+  .us div:first-of-type p {
+    text-align: justify;
+  }
+  .us div:last-of-type {
+    display: none;
+  }
+  .us a {
+    border-radius: 10px !important;
+  }
+  .boss {
+    border-radius: 0;
+    flex-direction: column;
+  }
+  .boss div:first-child {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .boss div:last-child {
+    width: 90%;
+    text-align: center;
+    padding-right: 15px;
+  }
+}
+
+/*# sourceMappingURL=aboutStyle.css.map */
