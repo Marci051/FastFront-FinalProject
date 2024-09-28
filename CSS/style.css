@@ -167,8 +167,8 @@ footer iframe {
   z-index: 1000;
   display: inline-block;
   background-color: transparent;
-  color: white;
-  font-family: vazirmatn;
+  /* color: white;
+  font-family: vazirmatn; */
   border: none;
   /* padding: 10px 20px; */
   padding-top: 10px;
@@ -229,7 +229,7 @@ footer iframe {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   body {
     max-width: 375px;
   }
@@ -314,8 +314,7 @@ footer iframe {
     text-decoration: none;
     display: block; /* لینک‌ها را به صورت بلوک نمایش می‌دهد */
   }
-
-  .menu-icon {
+  d .menu-icon {
     cursor: pointer;
     padding: 15px;
     background-color: #333;

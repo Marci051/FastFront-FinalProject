@@ -36,5 +36,5 @@ document.getElementById("scrollToTop").onclick = function () {
     behavior: "smooth",
   });
   //scrollTo(x,y)  --> property
-  //scrollTo({object})  -->object
+  //scrollTo({object})  --> object
 };
