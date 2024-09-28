@@ -83,7 +83,7 @@ main form fieldset label img {
   form fieldset div {
     width: 90% !important;
   }
-  form fieldset input[type="email"] {
+  form fieldset input[type=email] {
     text-align: left;
   }
   form fieldset label + textarea {
