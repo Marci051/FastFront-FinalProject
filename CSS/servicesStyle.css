@@ -30,7 +30,7 @@ main .card a:hover {
   transition-duration: 0.5s;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   main {
     flex-direction: column;
     align-items: center;
