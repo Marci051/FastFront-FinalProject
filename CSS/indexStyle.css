@@ -104,7 +104,7 @@ div + h3,
 
 /* *********RESPONSIVE********* */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 576px) {
   .mojavezha {
     flex-wrap: wrap;
   }
@@ -140,7 +140,7 @@ div + h3,
     width: 95%;
     margin-top: 0;
     margin: 5%;
-    margin-top: 0;
+    margin-top: 18%;
   }
 
   .mainFirstPart div:first-of-type img {

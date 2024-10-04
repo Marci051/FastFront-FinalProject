@@ -229,10 +229,7 @@ footer iframe {
   }
 }
 
-@media only screen and (max-width: 450px) {
-  body {
-    max-width: 375px;
-  }
+@media only screen and (max-width: 576px) {
   .header {
     height: 100%;
   }
@@ -248,11 +245,12 @@ footer iframe {
     margin-block-end: 10px;
   }
   .backgroundShadow {
-    height: 160px;
+    height: 38vh;
   }
   .background {
     top: 0;
   }
+
   .navDiv {
     height: 70px;
   }
